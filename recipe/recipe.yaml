@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: env-repair
-  version: "0.2.7"
+  version: "0.2.8"
   sdist_name: ${{ name | replace("-", "_") }}
   pypi_first: ${{ name[0] }}
 
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ pypi_first }}/${{ name }}/${{ sdist_name }}-${{ version }}.tar.gz
-  sha256: 6de7bb91b63fa50b6d59c51856066474be32f1f76200c7e2dd820edfd4b9aceb
+  sha256: 1f7f6123c8d223204cef1d51fc2b00f1be3cd4816d620fa91f6ed19f5efcd07e
 
 build:
   number: 0
